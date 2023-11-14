@@ -1,0 +1,51 @@
+.card-overlay {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.overlay {
+  position: relative;
+}
+.overlay-title {
+  position: absolute;
+  color: white;
+  max-width: 116px; /* Giới hạn chiều rộng là 20px */
+  width: 100%; /* Chiều rộng tối đa là 100% của phần tử cha nếu nó nhỏ hơn max-width */
+  padding: auto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  left: 1rem;
+  text-align: center;
+  top: 15%;
+  z-index: 1;
+  word-wrap: break-word; /* Khi văn bản quá giới hạn, nó sẽ xuống dòng */
+}
+
+.overlay-btn {
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 3.3rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  top: 50%;
+  padding: 9px 18px 7px 18px;
+}
+.overlay-btn:hover {
+  background-color: white;
+  color: black;
+}
+.overlay .overlay-title,
+.overlay .overlay-btn {
+  opacity: 0;
+}
+.overlay:hover .overlay-btn,
+.overlay:hover .overlay-title {
+  opacity: 1;
+
+  transition: all 0.5s ease-in-out;
+}
+.overlay:hover .overlay-img {
+  filter: blur(1px); /* Điều chỉnh giá trị blur tùy ý */
+}

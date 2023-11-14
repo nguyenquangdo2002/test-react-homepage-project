@@ -1,0 +1,156 @@
+.cards__p-service {
+  color: black;
+
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: grey;
+}
+.cards__container__service {
+  display: flex;
+  align-items: center;
+  max-width: 126rem;
+  width: 100%;
+  margin: auto;
+  text-decoration: none;
+}
+
+.cards__items__service {
+  text-decoration: none;
+}
+
+.cards__items__service {
+  list-style: none;
+  margin: auto;
+}
+.cards__item__link__service {
+  list-style: none;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cards__item__pic-wrapper-service {
+  height: 15rem;
+
+  position: relative;
+  width: 15rem;
+
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__info {
+  color: black;
+  padding: 20px 30px 30px;
+}
+
+.cards__item__text {
+  color: black;
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+}
+.cards__item__desc {
+  font-size: 1.35rem;
+  color: black;
+  font-family: sans-serif;
+  margin: auto;
+  width: 68%;
+}
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items__service {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .cards__items__service {
+    margin-bottom: 2rem;
+  }
+  .cards__item__pic-wrap-service {
+    height: 30rem;
+
+    position: relative;
+    width: 26rem;
+
+    padding-top: 67%;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 1124px) {
+  .cards__items__service {
+    margin-bottom: 2rem;
+  }
+  .cards__item__pic-wrap-service {
+    height: 30rem;
+
+    position: relative;
+    width: 24rem;
+
+    padding-top: 67%;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .cards__items__service {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .cards__item__pic-wrap-service {
+    height: 30rem;
+    margin: auto;
+
+    position: relative;
+    width: 29rem;
+  }
+  .cards__container__service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: auto;
+
+    margin: auto;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+  }
+}

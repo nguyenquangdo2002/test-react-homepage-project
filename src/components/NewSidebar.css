@@ -1,0 +1,105 @@
+.new-sidebar {
+  width: 33.3rem;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+}
+.new-sidebar-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.new-sidebar-container::-webkit-scrollbar {
+  width: 5px; /* chiều rộng của thanh cuộn */
+}
+
+.new-sidebar-container::-webkit-scrollbar-thumb {
+  background-color: darkgray; /* màu của phần cuộn */
+}
+
+.new-sidebar-container::-webkit-scrollbar-track {
+  background-color: lightgray; /* màu của phần track */
+}
+.container-row12 {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  justify-content: center;
+  align-items: center;
+}
+.container-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container-p {
+  font-size: 1.1rem;
+  line-height: 17px;
+  width: 24rem;
+}
+.container-row3 {
+}
+.container-row4 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+.container-row4 .color-red {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.color-red:nth-child(1) {
+  background-color: #ff4a52;
+}
+
+.color-red:nth-child(2) {
+  background-color: #ff9500;
+}
+
+.color-red:nth-child(3) {
+  background-color: #ffcc00;
+}
+
+.color-red:nth-child(4) {
+  background-color: #4cd964;
+}
+
+.color-red:nth-child(5) {
+  background-color: #5ac8fa;
+}
+
+.color-red:nth-child(6) {
+  background-color: #007aff;
+}
+
+.color-red:nth-child(7) {
+  background-color: #5856d6;
+}
+
+.color-red:nth-child(8) {
+  background-color: #ff2d55;
+}
+.container-row5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 1100px) {
+  .new-sidebar {
+    display: none;
+  }
+  .new-sidebar-container {
+    display: none;
+  }
+}

@@ -1,0 +1,143 @@
+.cards {
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container__trip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 126rem;
+  width: 100%;
+  margin: auto 20rem;
+}
+.cards__items_trip {
+  display: flex;
+  gap: 0.2rem;
+  flex-wrap: wrap; /* Bật wrap để các thẻ xuống dòng khi không đủ không gian */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 152rem;
+  width: 100%;
+}
+
+.cards__item__trip {
+  display: flex;
+  flex-direction: row-reverse; /* Chuyển đổi hướng từ column sang row */
+
+  flex: 1;
+  margin-right: 2.8rem;
+}
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__item__pic-wrapper::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 1rem;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff4a52;
+  box-sizing: border-box;
+}
+.cards__item__pic-wrapper:hover::after {
+  position: absolute;
+  font-size: 2.32rem;
+
+  font-weight: 700;
+  color: #fff;
+  max-width: calc((100%) - 40px);
+
+  background-color: #ff4a52;
+  box-sizing: border-box;
+}
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__info {
+  padding: 1rem;
+
+  border: 0.1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 0 0 5px 5px;
+}
+
+.cards__item__text {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+  .cards__items_trip {
+    margin-left: 2.5rem;
+  }
+}
+.cards__item__pic-wrapper {
+  height: 100%;
+
+  position: relative;
+  width: 100%;
+
+  padding-top: 67%;
+  overflow: hidden;
+}
+.cards__item__city {
+  line-height: 4rem;
+  margin-left: 0.1rem;
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.cards__item__rating {
+  margin-bottom: -2rem;
+  display: flex;
+
+  justify-content: space-between;
+}
+.rating {
+  color: rgb(33, 173, 173);
+  font-size: 1.2rem;
+}
+.review {
+  margin-left: 0.3rem;
+  color: black;
+  font-weight: 500;
+}
+.day p,
+.day {
+  margin-left: 3px;
+  color: black;
+  font-weight: 500;
+  font-size: 1.3rem;
+}

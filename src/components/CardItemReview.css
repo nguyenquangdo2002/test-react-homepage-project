@@ -1,0 +1,102 @@
+.cards {
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container__review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 126rem;
+  width: 100%;
+  margin: auto 20rem;
+}
+.cards__items_review {
+  display: flex;
+  gap: 0.2rem;
+  flex-wrap: wrap; /* Bật wrap để các thẻ xuống dòng khi không đủ không gian */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 152rem;
+  width: 100%;
+}
+
+.cards__item__review {
+  display: flex;
+  flex-direction: column; /* Chuyển đổi hướng từ column sang row */
+  margin-right: 2.8rem;
+  text-decoration: none;
+}
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__item__pic-wrapper-review::after {
+  text-decoration: none;
+
+  content: attr(data-category);
+  position: absolute;
+  padding: 6px 8px;
+  bottom: -3rem;
+  left: 0;
+  max-width: calc(100% - 60px); /* Thay đổi cú pháp calc() để đảm bảo đúng */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff4a52;
+  box-sizing: border-box;
+}
+
+.cards__item__pic-wrapper-review::after {
+  text-decoration: none;
+
+  position: absolute;
+  font-size: 1.7rem;
+
+  font-weight: 700;
+  color: #fff;
+  max-width: calc((100%) - 40px);
+
+  background-color: #ff4a52;
+  box-sizing: border-box;
+}
+.cards__item__img-review {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 263px;
+  height: 200px;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.fa-star {
+  color: rgb(33, 173, 173);
+  font-size: 1.2rem;
+}
+.review {
+  margin-left: 0.3rem;
+  color: black;
+  font-weight: 500;
+}
+.cards__item__title-review p {
+  list-style: none;
+  left: 2rem;
+  bottom: -12rem;
+  position: absolute;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+.cards__item__rating-review {
+  position: absolute;
+  bottom: -9.5rem;
+  left: 20px;
+}

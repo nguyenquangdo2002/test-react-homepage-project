@@ -1,0 +1,33 @@
+logo: https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/themes/grandtour/images/logo@2x_white.png
+video banner:
+https://www.youtube.com/watch?v=JPe2mwq96cw
+Popular Destinations
+World's best tourist destinations
+tokyo: https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Tokyo_Dollarphotoclub_72848283-copy.jpg
+seoul: https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/bf1202aedf2c5b6a57d379575619a488.jpg
+paris: https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/1600x1200-4.jpg
+london:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-1.jpg
+Best Value Trips
+Best offers trips from us
+pic1:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-211051-700x466.jpeg
+pic2:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-197657-700x466.jpeg
+pic3:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-96420-700x466.jpeg
+Why Choose Us
+Here are reasons you should plan trip with us
+https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Map-Marker-300x300.png
+https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Worldwide-Location-300x300.png
+https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Hot-Air-Balloon-300x300.png
+banner pic
+https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-24377.jpg
+Articles & Tips
+Explore some of the best tips from around the world
+pic1:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/photo-1469920783271-4ee08a94d42d-960x636.jpg
+pic2:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/photo-1469920783271-4ee08a94d42d-960x636.jpg
+pic3:https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-24484-960x636.jpg
+footer pic:
+pic1:https://live.staticflickr.com/8688/28760131762_e4a64b20c4_q.jpg
+pic2:https://live.staticflickr.com/7519/27308262031_a6ebf0572e_q.jpg
+pic3:https://live.staticflickr.com/7160/27287965356_60355f51d7_q.jpg
+pic4:https://live.staticflickr.com/7365/27138570412_d25002a5c9_q.jpg
+pic5:https://live.staticflickr.com/7543/26520497604_1df03a02bc_q.jpg
+pic6:https://live.staticflickr.com/7502/27012097142_f1511b67bc_q.jpg

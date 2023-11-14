@@ -1,0 +1,27 @@
+.hero-container-advanced {
+  /* background-image: url("") center center/cover no-repeat; */
+  display: flex;
+  margin-top: 2rem;
+}
+.hero-content-advanced {
+  color: gray;
+}
+/* @media only screen and (min-width: 500px) {
+  span {
+    position: relative;
+    z-index: -1;
+  }
+} */
+
+/* .advance-search {
+  text-align: left;
+  font-size: 1.4rem;
+  color: white;
+  line-height: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.advance-icon {
+  font-size: 2.3rem;
+} */
